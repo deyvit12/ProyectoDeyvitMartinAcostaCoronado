@@ -1,0 +1,31 @@
+header{
+    background-color: $bg-celeste;
+}
+
+section div nav{
+    background-color: $bg-gris;
+}
+
+h1{
+    font-family: $fontMain;
+    font-weight: $fontSemi;
+}
+
+h2{
+    font-family: $fontMain;
+    font-weight: $fontRegular;
+}
+
+h3{
+    font-family: $fontMain;
+    font-weight: $fontMedium;
+}
+p{
+    font-family: $fontMain;
+}
+.subTitulos{
+    font-family: $fontMain;
+    font-weight: $fontSemi;
+    font-size: 2em;
+    padding-bottom: 20px;
+}

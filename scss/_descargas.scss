@@ -1,0 +1,93 @@
+.grillas--container {
+	display: grid;
+	margin: 100px 30px 100px 30px;
+	grid-template-columns: repeat(3,auto);
+	grid-template-rows: repeat(3,auto);
+	text-align: center;
+	justify-content: stretch;
+	grid-template-areas:
+	"grillas__container--noticia1 grillas__container--noticia2 grillas__container--noticia3 "
+	"grillas__container--noticia4 grillas__container--noticia5 grillas__container--noticia6 "
+	"grillas__container--noticia7 grillas__container--noticia8 grillas__container--noticia8 ";
+}
+
+.grillas__container--noticia1 {
+	grid-area: grillas__container--noticia1;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+}
+.grillas__container--noticia2 {
+	grid-area: grillas__container--noticia2;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+}
+.grillas__container--noticia3 {
+	grid-area: grillas__container--noticia3;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+}
+.grillas__container--noticia4 {
+	grid-area: grillas__container--noticia4;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+
+}
+.grillas__container--noticia5 {
+	grid-area: grillas__container--noticia5;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+
+}
+.grillas__container--noticia6 {
+	grid-area: grillas__container--noticia6;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+
+}
+.grillas__container--noticia7 {
+	grid-area: grillas__container--noticia7;
+	background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+
+}
+
+.grillas__container--noticia8{
+    grid-area: grillas__container--noticia8;
+    background-color: #EFF4F7;
+    margin: 20px 10px 20px 10px;
+
+}
+
+.grillas__container--w100{
+    width: 100%;
+}
+.grillas__container--w80{
+    width: 80%;
+}
+.grillas__container--w75{
+    width: 75%;
+}
+.grillas__container--w60{
+    width: 60%;
+}
+.grillas__container--w50{
+    width: 50%;
+}
+
+
+
+// boton
+
+.boton{
+	width: 150px;
+	height: 40px;
+	margin: 10px 0 10px 0;
+	background-color: rgb(62, 62, 226);
+	border: none;
+	color: white;
+	border-radius: 5ch;
+	&:hover{
+		color: black;
+		cursor: pointer;
+	}
+}
